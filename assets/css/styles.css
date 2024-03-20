@@ -12,6 +12,7 @@
   
   body {
     color: var(--tertiary-color);
+    background-color: grey;
     font-family: Helvetica, Arial, sans-serif;
   }
   
