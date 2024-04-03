@@ -1,6 +1,6 @@
 :root {
     --primary-color: #15a77d;
-    --secondary-color: #185c90;
+    --secondary-color: #04528e;
     --tertiary-color: #5a5b5b;
   }
   
@@ -74,41 +74,41 @@
   /* HEADER / NAVBAR STYLES END */
 
   /* ABOUT US SECTION STYLES START */
-  about-us {
+ #about-us {
     padding: 50px;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: white;
+    color: grey;
   }
 
-  .about-us h2 {
+  #about-us h2 {
     font-size: 24px;
     margin-bottom: 20px;
   }
 
-  .about-us p {
+  #about-us p {
     font-size: 16px;
     line-height: 1.5;
   }
   /* ABOUT US SECTION STYLES END */
 
   /* OUR SERVICES SECTION STYLES START */
-  .our-services {
+  #our-services {
     padding: 50px;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: white;
+    color: grey;
   }
 
-  .our-services h2 {
+  #our-services h2 {
     font-size: 24px;
     margin-bottom: 20px;
   }
 
-  .our-services ul {
+  #our-services ul {
     list-style: none;
     margin-bottom: 20px;
   }
 
-  .our-services li {
+  #our-services li {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 10px;
