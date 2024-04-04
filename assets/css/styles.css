@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #15a77d;
-    --secondary-color: #04528e;
-    --tertiary-color: #5a5b5b;
+    --primary-color: #3075eb;
+    --secondary-color: #3075eb;
+    --tertiary-color: #747474;
   }
   
   * {
@@ -12,7 +12,7 @@
 
   body {
     color: var(--tertiary-color);
-    background-color: grey;
+    background-color: white;
     font-family: Helvetica, Arial, sans-serif;
   }
 
@@ -169,7 +169,7 @@
   
   /* REACH OUT STYLES START */
   .contact {
-    background: var(--secondary-color);
+    background: rgb(179, 179, 179);
   }
   
   .contact h2 {
