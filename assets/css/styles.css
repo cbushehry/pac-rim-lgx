@@ -195,6 +195,7 @@
     height: auto;
   }
   /* OUR PARTNERS SECTION STYLES END */
+
   /* FOOTER STYLES START */
   footer {
     background: var(--tertiary-color);
@@ -378,10 +379,6 @@
       width: 80%;
     }
     
-    .trainer {
-      flex: 0 70%;
-    }
-    
     .contact-info iframe{
       flex: 1 100%;
     }
@@ -414,10 +411,6 @@
     .step-text {
       flex: 100%;  
     }
-  
-    .trainer-bio h3, .trainer-bio h4 {
-      display: block;
-    }
   }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -432,10 +425,6 @@
   
     .intro p {
       width: 100%;
-    }
-  
-    .trainer {
-      flex: 0 100%;
     }
   
     .contact-info {
