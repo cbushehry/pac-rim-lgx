@@ -128,7 +128,7 @@
     color: grey;
   }
 
-  #about-us h2 {
+  #about-us h1 {
     font-size: 24px;
     margin-bottom: 20px;
   }
@@ -164,6 +164,37 @@
 
   /* OUR SERVICES SECTION STYLES END */
 
+  /* OUR PARTNERS SECTION STYLES START */
+  #our-partners {
+    padding: 50px;
+    background-color: white;
+    color: grey;
+  }
+
+  #our-partners h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #our-partners ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #our-partners li {
+    flex: 0 0 33.33%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #our-partners img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* OUR PARTNERS SECTION STYLES END */
   /* FOOTER STYLES START */
   footer {
     background: var(--tertiary-color);
