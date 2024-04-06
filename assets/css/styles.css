@@ -125,7 +125,7 @@
  #about-us {
     padding: 50px;
     background-color: white;
-    color: grey;
+    color: black;
   }
 
   #about-us h1 {
@@ -140,10 +140,10 @@
   /* ABOUT US SECTION STYLES END */
 
   /* OUR SERVICES SECTION STYLES START */
-  #our-services {
+  .service-item {
     padding: 50px;
     background-color: white;
-    color: grey;
+    color: black;
   }
 
   #our-services h2 {
@@ -168,7 +168,7 @@
   #our-partners {
     padding: 50px;
     background-color: white;
-    color: grey;
+    color: black;
   }
 
   #our-partners h1 {
