@@ -1,7 +1,7 @@
 :root {
     --primary-color: #3075eb;
     --secondary-color: #3075eb;
-    --tertiary-color: #747474;
+    --tertiary-color: #5b5b5b;
   }
   
   * {
@@ -26,7 +26,6 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -75,7 +74,7 @@
 
   /* HERO SECTION STYLES START */
   .hero {
-    background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+    background: url("../images/GGB-hero.jpg") no-repeat center center/cover;
     color: black;
     text-align: center;
     padding: 100px 0;
