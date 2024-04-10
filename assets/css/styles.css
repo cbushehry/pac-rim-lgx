@@ -123,7 +123,7 @@
 
   /* ABOUT US SECTION STYLES START */
  #about-us {
-    padding: 50px;
+    padding: 200px;
     background-color: white;
     color: black;
   }
@@ -179,7 +179,6 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
   }
 
@@ -192,6 +191,8 @@
   #our-partners img {
     max-width: 100%;
     height: auto;
+    width: 20%;
+    height: 20%;
   }
   /* OUR PARTNERS SECTION STYLES END */
 
