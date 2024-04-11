@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #3075eb;
+    --primary-color: #ffffff;
     --secondary-color: #3075eb;
     --tertiary-color: #5b5b5b;
   }
@@ -75,7 +75,7 @@
   /* HERO SECTION STYLES START */
   .hero {
     background: url("../images/GGB-hero.jpg") no-repeat center center/cover;
-    color: black;
+    color: var(--primary-color);
     text-align: center;
     padding: 100px 0;
   }
