@@ -60,7 +60,7 @@
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 1.45vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
@@ -88,14 +88,6 @@
   .hero p {
     font-size: 20px;
     margin-bottom: 20px;
-  }
-
-  .hero-cta {
-    margin-top: 20px;
-  }
-
-  .hero-form {
-    margin-top: 20px;
   }
 
   .hero-form input {
@@ -164,34 +156,25 @@
 
   /* OUR PARTNERS SECTION STYLES START */
   #our-partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 50px;
     background-color: white;
     color: black;
   }
 
-  #our-partners h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-
-  #our-partners ul {
-    list-style: none;
+  .partner-row {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between logos as needed */
+    margin-bottom: 20px; /* Space between rows */
   }
-
-  #our-partners li {
-    flex: 0 0 33.33%;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  #our-partners img {
-    max-width: 100%;
+  
+  .partner-item img {
+    width: 100%; /* Adjust based on your preference */
+    max-width: 200px; /* Prevents the images from being too large */
     height: auto;
-    width: 20%;
-    height: 20%;
   }
   /* OUR PARTNERS SECTION STYLES END */
 
@@ -387,28 +370,6 @@
   @media screen and (max-width: 768px) {
     section {
       padding: 30px 15px;
-    }
-  
-    .step h3 {
-      flex: 1 100%;
-      text-align: center;
-    }
-  
-    .step-info {
-      flex: 2 100%;
-      text-align: center;
-      justify-content: center;
-    }
-  
-    .step-img {
-      flex: 0 32%;
-      margin-right: 0;
-      margin-top: 15px;
-      margin-bottom: 15px;
-    }
-  
-    .step-text {
-      flex: 100%;  
     }
   }
   
