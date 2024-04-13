@@ -168,13 +168,35 @@
     display: flex;
     justify-content: center;
     gap: 20px; /* Adjust the gap between logos as needed */
-    margin-bottom: 20px; /* Space between rows */
+    margin-bottom: 30px; /* Space between rows */
+  }
+
+  .partner-row:first-child {
+    justify-content: center; /* Specifically center the first row for single image */
+  }
+  
+  .partner-item {
+    flex: 1; /* Each partner item takes equal space in the row */
+    text-align: center; /* Centers the images within their flex item */
+    padding: 0 10px; /* Adds spacing between images */
   }
   
   .partner-item img {
     width: 100%; /* Adjust based on your preference */
-    max-width: 200px; /* Prevents the images from being too large */
+    max-width: 300px; /* Prevents the images from being too large */
     height: auto;
+  }
+
+  .hapag-image {
+    flex: 1; /* Maintains flex sizing but can be adjusted */
+    padding: 0 20px; /* Adds more padding around the Hapag-Lloyd image */
+    max-width: 350px; /* Optionally adjust the max width if needed */
+  }
+  
+  .hapag-image img {
+    width: 100%; /* Ensures image uses all available space */
+    height: auto;
+    border: 3px solid blue; /* Example of an additional style */
   }
   /* OUR PARTNERS SECTION STYLES END */
 
@@ -211,13 +233,14 @@
   
   /* SECTION TITLE STYLES START */
   .section-title {
-    font-size: 48px;
-    border-bottom: 3px solid;
-    color: var(--secondary-color);
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
+    font-size: 48px; /* Matches other sections' title size */
+    color: var(--secondary-color); /* Ensure color consistency */
+    padding-bottom: 20px; /* Spacing for aesthetic */
+    text-align: center; /* Centers the text */
+    display: inline-block; /* Allows the underline to fit the text width */
+    border-bottom: 3px solid; /* Creates an underline */
+    width: 1000px; /* Adjust width to content size */
+    margin: 0 auto 35px auto; /* Centering the title horizontally */
   }
   
   .primary-border {
