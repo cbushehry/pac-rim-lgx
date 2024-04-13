@@ -75,40 +75,31 @@
   /* HERO SECTION STYLES START */
   .hero {
     background: url("../images/GGB-hero.jpg") no-repeat center center/cover;
-    color: var(--primary-color);
+    color: white;
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 0;  /* Adjust padding to reduce or increase space inside the section */
+    min-height: 500px;  /* Increase minimum height to make the image larger */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adds a black outline */
+    background-size: cover;  /* Ensures full coverage of the background */
+    background-position: center;  /* Centers the background image */
   }
   
   .hero h1 {
-    font-size: 48px;
+    font-size: 64px;
     margin-bottom: 20px;
   }
   
   .hero p {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
 
-  .hero-form input {
-    padding: 10px 15px;
-    font-size: 16px;
-    margin-right: 10px;
-    border: 1px solid var(--primary-color);
-    border-radius: 10px;
+  .hero {
+    padding-bottom: 50px;  /* Reduced from 100px if it was originally higher */
   }
-
-  .hero-form button {
-    padding: 10px 15px;
-    font-size: 16px;
-    border: none;
-    background: var(--primary-color);
-    color: white;
-    border-radius: 10px;
-  }
-
-  .hero-form button:hover {
-    background: var(--secondary-color);
+  
+  #about-us {
+    padding-top: 50px;  /* Reduce the top padding to bring it closer to the hero section */
   }
   /* HERO SECTION STYLES END */
 
@@ -185,18 +176,6 @@
     width: 100%; /* Adjust based on your preference */
     max-width: 300px; /* Prevents the images from being too large */
     height: auto;
-  }
-
-  .hapag-image {
-    flex: 1; /* Maintains flex sizing but can be adjusted */
-    padding: 0 20px; /* Adds more padding around the Hapag-Lloyd image */
-    max-width: 350px; /* Optionally adjust the max width if needed */
-  }
-  
-  .hapag-image img {
-    width: 100%; /* Ensures image uses all available space */
-    height: auto;
-    border: 3px solid blue; /* Example of an additional style */
   }
   /* OUR PARTNERS SECTION STYLES END */
 
