@@ -243,17 +243,31 @@
   
   .contact-info {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-between; /* This can help maintain spacing between the elements */
+    flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+  }
+  
+  /* Targeting each child specifically by their class or element type if they don't have a specific class */
+  .contact-info .contact-form {
+    order: 1; /* Contact form goes first */
+    flex: 1 1 30%; /* Adjust sizing as necessary */
+  }
+  
+  .contact-info iframe {
+    order: 2; /* Map goes second */
+    flex: 1 1 40%; /* Giving more space to the map */
+    height: 450px; /* Adjust height as necessary */
+    width: 100%; /* Ensures it takes the full allocated space */
+  }
+  
+  .contact-info > div:not(.contact-form) {
+    order: 3; /* Address goes last */
+    flex: 1 1 20%; /* Adjust sizing as necessary */
   }
   
   .contact-info > * {
     flex: 1;
     margin: 15px;
-  }
-  
-  .contact-info iframe {
-    height: 400px;
   }
   
   .contact-info div {
