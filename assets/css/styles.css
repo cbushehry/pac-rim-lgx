@@ -164,6 +164,7 @@
 
   .partner-row:first-child {
     justify-content: center; /* Specifically center the first row for single image */
+    max-width: 500px; /* Prevents the images from being too large */
   }
   
   .partner-item {
@@ -173,8 +174,8 @@
   }
   
   .partner-item img {
-    width: 100%; /* Adjust based on your preference */
-    max-width: 300px; /* Prevents the images from being too large */
+    width: 80%; /* Adjust based on your preference */
+    max-width: 500px; /* Prevents the images from being too large */
     height: auto;
   }
   /* OUR PARTNERS SECTION STYLES END */
