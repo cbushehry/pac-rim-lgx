@@ -7,6 +7,9 @@ Pacific Rim Logistics Sample Website
 
 ## 2. Features
  * Sample Website for Pacific Rim Logistics Trucking Brokerage
+ * Apply for a job at Pacific Rim
+ * Map to Office Location
+ * 'Contact Us' form
 
  ![](assets/images/pac-rim-lgx.jpg)
 
