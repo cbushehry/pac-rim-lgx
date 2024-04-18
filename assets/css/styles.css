@@ -105,7 +105,7 @@
 
   /* ABOUT US SECTION STYLES START */
  #about-us {
-    padding: 200px;
+    padding: 100px;
     background-color: white;
     color: black;
   }
@@ -158,8 +158,8 @@
   .partner-row {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Adjust the gap between logos as needed */
-    margin-bottom: 30px; /* Space between rows */
+    gap: 10px; /* Adjust the gap between logos as needed */
+    margin-bottom: 20px; /* Space between rows */
   }
 
   .partner-row:first-child {
