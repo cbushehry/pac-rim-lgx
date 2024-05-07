@@ -11,7 +11,7 @@ Pacific Rim Logistics Sample Website
  * Map to Office Location
  * 'Contact Us' form
 
- ![](assets/images/pac-rim-lgx.jpg)
+ ![](assets/images/PRL-homepage.png)
 
 ## 3. Credits / Contact
 This application was created by Cameron Bushehry
