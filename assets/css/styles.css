@@ -97,10 +97,11 @@
   .hero {
     padding-bottom: 50px;  /* Reduced from 100px if it was originally higher */
   }
+
+  .hero-content h2 {
+    font-size: 4rem; /* Increased font size */
+}
   
-  #about-us {
-    padding-top: 50px;  /* Reduce the top padding to bring it closer to the hero section */
-  }
   /* HERO SECTION STYLES END */
 
   /* ABOUT US SECTION STYLES START */
