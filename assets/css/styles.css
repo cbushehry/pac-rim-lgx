@@ -103,6 +103,74 @@ header nav ul li a:hover {
 }
 /* HERO SECTION STYLES END */
 
+/* SERVICES OVERVIEW SECTION STYLES START */
+#services-overview {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: white;
+  color: black;
+}
+
+#services-overview .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#services-overview .section-title {
+  font-size: 36px;
+  color: var(--tertiary-color);
+  margin-bottom: 20px;
+}
+
+#services-overview .section-title .highlight {
+  color: var(--secondary-color);
+}
+
+#services-overview .sub-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--tertiary-color);
+}
+
+#services-overview .description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+#services-overview .features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#services-overview .feature-item {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  text-align: center;
+  max-width: 300px;
+}
+
+#services-overview .feature-item img {
+  max-width: 80px;
+  margin-bottom: 20px;
+}
+
+#services-overview .feature-item h4 {
+  font-size: 18px;
+  color: var(--tertiary-color);
+  margin-bottom: 10px;
+}
+
+#services-overview .feature-item p {
+  font-size: 14px;
+  color: var(--tertiary-color);
+}
+/* SERVICES OVERVIEW SECTION STYLES END */
+
 /* ABOUT US SECTION STYLES START */
 #about-us {
   padding: 100px;
