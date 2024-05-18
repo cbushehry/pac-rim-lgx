@@ -1,419 +1,418 @@
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #3075eb;
-    --tertiary-color: #5b5b5b;
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  --primary-color: #ffffff;
+  --secondary-color: #3075eb;
+  --tertiary-color: #5b5b5b;
+}
 
-  body {
-    color: var(--tertiary-color);
-    background-color: white;
-    font-family: Helvetica, Arial, sans-serif;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  /* HEADER / NAV BAR STYLES START */
+body {
+  color: var(--tertiary-color);
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* HEADER / NAV BAR STYLES START */
+header {
+  padding: 20px 35px;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.45vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+/* HEADER / NAVBAR STYLES END */
+
+/* HERO SECTION STYLES START */
+.hero {
+  background: url("../images/GGB-hero.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;  /* Adjust padding to reduce or increase space inside the section */
+  min-height: 500px;  /* Increase minimum height to make the image larger */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adds a black outline */
+  background-size: cover;  /* Ensures full coverage of the background */
+  background-position: center;  /* Centers the background image */
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.hero {
+  padding-bottom: 50px;  /* Reduced from 100px if it was originally higher */
+}
+
+.hero-content h2 {
+  font-size: 4rem; /* Increased font size */
+}
+/* HERO SECTION STYLES END */
+
+/* ABOUT US SECTION STYLES START */
+#about-us {
+  padding: 100px;
+  background-color: white;
+  color: black;
+}
+
+#about-us h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* ABOUT US SECTION STYLES END */
+
+/* OUR SERVICES SECTION STYLES START */
+.service-item {
+  padding: 50px;
+  background-color: white;
+  color: black;
+}
+
+#our-services h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#our-services ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+#our-services li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+/* OUR SERVICES SECTION STYLES END */
+
+/* OUR PARTNERS SECTION STYLES START */
+#our-partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: white;
+  color: black;
+}
+
+.partner-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap between logos as needed */
+  margin-bottom: 20px; /* Space between rows */
+}
+
+.partner-row:first-child {
+  justify-content: center; /* Specifically center the first row for single image */
+  max-width: 500px; /* Prevents the images from being too large */
+}
+
+.partner-item {
+  flex: 1; /* Each partner item takes equal space in the row */
+  text-align: center; /* Centers the images within their flex item */
+  padding: 0 10px; /* Adds spacing between images */
+}
+
+.partner-item img {
+  width: 80%; /* Adjust based on your preference */
+  max-width: 500px; /* Prevents the images from being too large */
+  height: auto;
+}
+/* OUR PARTNERS SECTION STYLES END */
+
+/* FOOTER STYLES START */
+footer {
+  background: var(--tertiary-color);
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h2 {
+  color: var(--primary-color);
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: var(--primary-color);
+}
+/* END FOOTER STYLES */
+
+/* STYLE ALL SECTION TAGS */
+section {
+  padding: 60px;
+}
+
+/* SECTION TITLE STYLES START */
+.section-title {
+  font-size: 48px; /* Matches other sections' title size */
+  color: var(--secondary-color); /* Ensure color consistency */
+  padding-bottom: 20px; /* Spacing for aesthetic */
+  text-align: center; /* Centers the text */
+  display: inline-block; /* Allows the underline to fit the text width */
+  border-bottom: 3px solid; /* Creates an underline */
+  width: 1000px; /* Adjust width to content size */
+  margin: 0 auto 35px auto; /* Centering the title horizontally */
+}
+
+.primary-border {
+  border-color: var(--primary-color);
+}
+
+.secondary-border {
+  border-color: var(--tertiary-color);
+}
+/* SECTION TITLE STYLES END */
+
+/* REACH OUT STYLES START */
+.contact {
+  background: rgb(179, 179, 179);
+}
+
+.contact h2 {
+  color: var(--primary-color);
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between; /* This can help maintain spacing between the elements */
+  flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+}
+
+/* Targeting each child specifically by their class or element type if they don't have a specific class */
+.contact-info .contact-form {
+  order: 1; /* Contact form goes first */
+  flex: 1 1 30%; /* Adjust sizing as necessary */
+}
+
+.contact-info iframe {
+  order: 2; /* Map goes second */
+  flex: 1 1 40%; /* Giving more space to the map */
+  height: 450px; /* Adjust height as necessary */
+  width: 100%; /* Ensures it takes the full allocated space */
+}
+
+.contact-info > div:not(.contact-form) {
+  order: 3; /* Address goes last */
+  flex: 1 1 20%; /* Adjust sizing as necessary */
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
+.contact-info div {
+  color: white;
+}
+
+.contact-info h3 {
+  color: var(--primary-color);
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: var(--primary-color);
+  background: var(--tertiary-color);
+}
+
+.contact-info a {
+  color: var(--primary-color);
+}
+/* REACH OUT STYLES END */
+
+/* UTILITIES */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
   header {
-    padding: 20px 35px;
-    background-color: var(--tertiary-color);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
   }
 
   header h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 36px;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-
-  header a {
-    text-decoration: none;
-    color: var(--primary-color);
-  }
-
-  header nav {
-    margin: 7px 0;
+    width: 100%;
+    text-align: center;
   }
 
   header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
   }
 
   header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.45vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
   }
 
-  header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
-  }
-  /* HEADER / NAVBAR STYLES END */
-
-  /* HERO SECTION STYLES START */
-  .hero {
-    background: url("../images/GGB-hero.jpg") no-repeat center center/cover;
-    color: white;
+  footer h2, footer div {
     text-align: center;
-    padding: 100px 0;  /* Adjust padding to reduce or increase space inside the section */
-    min-height: 500px;  /* Increase minimum height to make the image larger */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adds a black outline */
-    background-size: cover;  /* Ensures full coverage of the background */
-    background-position: center;  /* Centers the background image */
-  }
-  
-  .hero h1 {
-    font-size: 64px;
-    margin-bottom: 20px;
-  }
-  
-  .hero p {
-    font-size: 30px;
-    margin-bottom: 20px;
+    width: 100%;
   }
 
-  .hero {
-    padding-bottom: 50px;  /* Reduced from 100px if it was originally higher */
-  }
-
-  .hero-content h2 {
-    font-size: 4rem; /* Increased font size */
-}
-  /* HERO SECTION STYLES END */
-
-  /* ABOUT US SECTION STYLES START */
- #about-us {
-    padding: 100px;
-    background-color: white;
-    color: black;
-  }
-
-  #about-us h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-
-  #about-us p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  /* ABOUT US SECTION STYLES END */
-
-  /* OUR SERVICES SECTION STYLES START */
-  .service-item {
-    padding: 50px;
-    background-color: white;
-    color: black;
-  }
-
-  #our-services h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-
-  #our-services ul {
-    list-style: none;
-    margin-bottom: 20px;
-  }
-
-  #our-services li {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-  }
-  /* OUR SERVICES SECTION STYLES END */
-
-  /* OUR PARTNERS SECTION STYLES START */
-  #our-partners {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    background-color: white;
-    color: black;
-  }
-
-  .partner-row {
-    display: flex;
-    justify-content: center;
-    gap: 10px; /* Adjust the gap between logos as needed */
-    margin-bottom: 20px; /* Space between rows */
-  }
-
-  .partner-row:first-child {
-    justify-content: center; /* Specifically center the first row for single image */
-    max-width: 500px; /* Prevents the images from being too large */
-  }
-  
-  .partner-item {
-    flex: 1; /* Each partner item takes equal space in the row */
-    text-align: center; /* Centers the images within their flex item */
-    padding: 0 10px; /* Adds spacing between images */
-  }
-  
-  .partner-item img {
-    width: 80%; /* Adjust based on your preference */
-    max-width: 500px; /* Prevents the images from being too large */
-    height: auto;
-  }
-  /* OUR PARTNERS SECTION STYLES END */
-
-  /* FOOTER STYLES START */
-  footer {
-    background: var(--tertiary-color);
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  .hero-cta, .hero-form {
     width: 100%;
   }
   
-  footer h2 {
-    color: var(--primary-color);
-    font-size: 30px;
-    margin: 0;
+  .hero-cta {
+    text-align: center;
   }
-  
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
-  
-  footer a {
-    color: var(--primary-color);
-  }
-  /* END FOOTER STYLES */
-  
-  /* STYLE ALL SECTION TAGS */
-  section {
-    padding: 60px;
-  }
-  
-  /* SECTION TITLE STYLES START */
+
   .section-title {
-    font-size: 48px; /* Matches other sections' title size */
-    color: var(--secondary-color); /* Ensure color consistency */
-    padding-bottom: 20px; /* Spacing for aesthetic */
-    text-align: center; /* Centers the text */
-    display: inline-block; /* Allows the underline to fit the text width */
-    border-bottom: 3px solid; /* Creates an underline */
-    width: 1000px; /* Adjust width to content size */
-    margin: 0 auto 35px auto; /* Centering the title horizontally */
+    width: 80%;
   }
   
-  .primary-border {
-    border-color: var(--primary-color);
+  .contact-info iframe{
+    flex: 1 100%;
   }
-  
-  .secondary-border {
-    border-color: var(--tertiary-color);
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
   }
-  /* SECTION TITLE STYLES END */
-  
-  /* REACH OUT STYLES START */
-  .contact {
-    background: rgb(179, 179, 179);
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hero-form button {
+    width: 100%;
   }
-  
-  .contact h2 {
-    color: var(--primary-color);
+
+  .section-title {
+    width: 95%;
   }
-  
+
+  .intro p {
+    width: 100%;
+  }
+
   .contact-info {
-    display: flex;
-    justify-content: space-between; /* This can help maintain spacing between the elements */
-    flex-wrap: wrap; /* Allows items to wrap in smaller screens */
-  }
-  
-  /* Targeting each child specifically by their class or element type if they don't have a specific class */
-  .contact-info .contact-form {
-    order: 1; /* Contact form goes first */
-    flex: 1 1 30%; /* Adjust sizing as necessary */
-  }
-  
-  .contact-info iframe {
-    order: 2; /* Map goes second */
-    flex: 1 1 40%; /* Giving more space to the map */
-    height: 450px; /* Adjust height as necessary */
-    width: 100%; /* Ensures it takes the full allocated space */
-  }
-  
-  .contact-info > div:not(.contact-form) {
-    order: 3; /* Address goes last */
-    flex: 1 1 20%; /* Adjust sizing as necessary */
-  }
-  
-  .contact-info > * {
-    flex: 1;
-    margin: 15px;
-  }
-  
-  .contact-info div {
-    color: white;
-  }
-  
-  .contact-info h3 {
-    color: var(--primary-color);
-    font-size: 32px;
-  }
-  
-  .contact-info p, .contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 16px;
-    font-style: normal;
-  }
-  
-  .contact-form input, .contact-form textarea {
-    border: 1px solid var(--secondary-color);
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: var(--secondary-color);
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    border-radius: 10px;
-    background-color: rgba(255,255,255, 0.75);
-  }
-  
-  .contact-form input:focus, .contact-form textarea:focus {
-    background-color: rgba(255,255,255, 1);
-    outline: none;
-  }
-  
-  .contact-form button {
-    width: 100%;
-    border: none;
-    background: var(--primary-color);
-    color: var(--secondary-color);
     text-align: center;
-    padding: 15px 0;
-    font-size: 16px;
-    border-radius: 10px;
   }
-  
-  .contact-form button:hover {
-    color: var(--primary-color);
-    background: var(--tertiary-color);
+
+  .contact-info > * {
+    flex: 0 100%;
   }
-  
-  .contact-info a {
-    color: var(--primary-color);
+
+  .contact-form {
+    order: 3;
   }
-  /* REACH OUT STYLES END */
-  
-  /* UTILITIES */
-  .text-left {
-    text-align: left;
-  }
-  
-  .text-right {
-    text-align: right;
-  }
-  
-  .flex-row {
-    display: flex;
-  }
-  
-  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-  @media screen and (max-width: 980px) {
-    header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-    }
-  
-    header h1 {
-      width: 100%;
-      text-align: center;
-    }
-  
-    header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-    }
-  
-    header nav ul li a {
-      font-size: 20px;
-    }
-  
-    footer h2, footer div {
-      text-align: center;
-      width: 100%;
-    }
-  
-    .hero-cta, .hero-form {
-      width: 100%;
-    }
-    
-    .hero-cta {
-      text-align: center;
-    }
-  
-    .section-title {
-      width: 80%;
-    }
-    
-    .contact-info iframe{
-      flex: 1 100%;
-    }
-  }
-  
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
-    section {
-      padding: 30px 15px;
-    }
-  }
-  
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-    .hero-form button {
-      width: 100%;
-    }
-  
-    .section-title {
-      width: 95%;
-    }
-  
-    .intro p {
-      width: 100%;
-    }
-  
-    .contact-info {
-      text-align: center;
-    }
-  
-    .contact-info > * {
-      flex: 0 100%;
-    }
-  
-    .contact-form {
-      order: 3;
-    }
-  }
-  
+}
