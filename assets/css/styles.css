@@ -280,6 +280,52 @@ header nav ul li a:hover {
 }
 /* MANAGEMENT TEAM SECTION STYLES END */
 
+/* WHY CHOOSE US SECTION STYLES START */
+.why-choose-us-section {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-choose-us-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.why-choose-us-section .section-title {
+  font-size: 36px;
+  color: var(--tertiary-color);
+  margin-bottom: 40px;
+}
+
+.why-choose-us-section .features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.why-choose-us-section .feature-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 45%;
+}
+
+.why-choose-us-section .feature-item .icon {
+  font-size: 24px;
+  color: var(--secondary-color);
+  margin-right: 10px;
+}
+
+.why-choose-us-section .feature-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--tertiary-color);
+}
+/* WHY CHOOSE US SECTION STYLES END */
+
 /* OUR SERVICES SECTION STYLES START */
 .service-item {
   padding: 50px;
