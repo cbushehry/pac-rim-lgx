@@ -210,8 +210,75 @@ header nav ul li a:hover {
   line-height: 1.5;
   color: var(--tertiary-color);
 }
-
 /* ABOUT US SECTION STYLES END */
+
+/* MANAGEMENT TEAM SECTION STYLES START */
+.management-team-section {
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.management-team-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.management-team-section .section-title {
+  font-size: 36px;
+  color: var(--tertiary-color);
+  margin-bottom: 40px;
+}
+
+.management-team-section .team-photo-placeholder {
+  width: 100%;
+  height: 300px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.management-team-section .team-photo-placeholder p {
+  font-size: 20px;
+  color: #666;
+}
+
+.management-team-section .team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.management-team-section .team-member {
+  width: 22%;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.management-team-section .member-photo-placeholder {
+  width: 100%;
+  height: 150px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+.management-team-section .team-member h3 {
+  font-size: 18px;
+  color: var(--tertiary-color);
+  margin-bottom: 10px;
+}
+
+.management-team-section .team-member p {
+  font-size: 14px;
+  color: #666;
+}
+/* MANAGEMENT TEAM SECTION STYLES END */
 
 /* OUR SERVICES SECTION STYLES START */
 .service-item {
