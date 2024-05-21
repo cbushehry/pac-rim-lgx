@@ -436,6 +436,7 @@ section {
   border-color: var(--tertiary-color);
 }
 /* SECTION TITLE STYLES END */
+
 /* REACH OUT STYLES START */
 .contact {
   background: rgb(179, 179, 179);
@@ -463,6 +464,7 @@ section {
 .contact-info .contact-form {
   order: 1; /* Contact form goes first */
   flex: 1 1 30%; /* Adjust sizing as necessary */
+  text-align: center; /* Center the form elements */
 }
 
 .contact-info iframe {
@@ -517,6 +519,10 @@ section {
   outline: none;
 }
 
+.contact-form textarea {
+  height: auto; /* Let the height be determined by the rows attribute */
+}
+
 .contact-form button {
   width: 100%;
   border: none;
@@ -559,6 +565,7 @@ section {
     display: block;
     margin-bottom: 5px;
 }
+
 /* FORM ROW AND GROUP STYLES END */
 /* REACH OUT STYLES END */
 
