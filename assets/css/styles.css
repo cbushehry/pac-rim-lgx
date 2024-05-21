@@ -436,7 +436,6 @@ section {
   border-color: var(--tertiary-color);
 }
 /* SECTION TITLE STYLES END */
-
 /* REACH OUT STYLES START */
 .contact {
   background: rgb(179, 179, 179);
@@ -527,6 +526,7 @@ section {
   padding: 10px 0; /* Reduced padding */
   font-size: 16px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .contact-form button:hover {
@@ -537,6 +537,29 @@ section {
 .contact-info a {
   color: var(--primary-color);
 }
+
+/* FORM ROW AND GROUP STYLES START */
+.contact-form .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form .form-group {
+    flex: 1;
+    min-width: 45%;
+    margin-right: 10px;
+}
+
+.contact-form .form-group:last-child {
+    margin-right: 0;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+/* FORM ROW AND GROUP STYLES END */
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
