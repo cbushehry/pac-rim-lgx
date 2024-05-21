@@ -443,6 +443,12 @@ section {
   padding: 40px 20px; /* Adjusted padding to reduce space */
 }
 
+.contact .container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Add padding to the container */
+}
+
 .contact h2 {
   color: var(--primary-color);
   margin-bottom: 20px; /* Reduced bottom margin */
