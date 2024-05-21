@@ -440,10 +440,12 @@ section {
 /* REACH OUT STYLES START */
 .contact {
   background: rgb(179, 179, 179);
+  padding: 40px 20px; /* Adjusted padding to reduce space */
 }
 
 .contact h2 {
   color: var(--primary-color);
+  margin-bottom: 20px; /* Reduced bottom margin */
 }
 
 .contact-info {
@@ -461,7 +463,7 @@ section {
 .contact-info iframe {
   order: 2; /* Map goes second */
   flex: 1 1 40%; /* Giving more space to the map */
-  height: 450px; /* Adjust height as necessary */
+  height: 350px; /* Adjusted height to reduce space */
   width: 100%; /* Ensures it takes the full allocated space */
 }
 
@@ -472,7 +474,7 @@ section {
 
 .contact-info > * {
   flex: 1;
-  margin: 15px;
+  margin: 10px; /* Reduced margin to decrease space */
 }
 
 .contact-info div {
@@ -481,11 +483,12 @@ section {
 
 .contact-info h3 {
   color: var(--primary-color);
-  font-size: 32px;
+  font-size: 28px; /* Adjusted font size to reduce space */
+  margin-bottom: 15px; /* Reduced bottom margin */
 }
 
 .contact-info p, .contact-info address {
-  margin: 20px 0;
+  margin: 10px 0; /* Reduced margins to decrease space */
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
@@ -498,7 +501,7 @@ section {
   font-size: 16px;
   color: var(--secondary-color);
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 10px; /* Reduced bottom margin */
   margin-top: 5px;
   border-radius: 10px;
   background-color: rgba(255,255,255, 0.75);
@@ -515,7 +518,7 @@ section {
   background: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0; /* Reduced padding */
   font-size: 16px;
   border-radius: 10px;
 }
