@@ -19,7 +19,7 @@ body {
 /* HEADER / NAV BAR STYLES START */
 header {
   padding: 20px 35px;
-  background-color: var(--tertiary-color);
+  background-color: var(--secondary-color); /* Update to use the blue color */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -401,7 +401,7 @@ header nav ul li a:hover {
 
 /* FOOTER STYLES START */
 footer {
-  background: var(--tertiary-color);
+  background: var(--secondary-color);
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
