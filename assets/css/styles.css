@@ -74,14 +74,28 @@ header nav ul li a:hover {
 
 /* HERO SECTION STYLES START */
 .hero {
+  position: relative;
   background: url("../images/GGB-hero.jpg") no-repeat center center/cover;
   color: white;
   text-align: center;
-  padding: 100px 0;  /* Adjust padding to reduce or increase space inside the section */
-  min-height: 500px;  /* Increase minimum height to make the image larger */
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adds a black outline */
-  background-size: cover;  /* Ensures full coverage of the background */
-  background-position: center;  /* Centers the background image */
+  padding: 100px 0;
+  min-height: 500px;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Add overlay */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .hero h1 {
