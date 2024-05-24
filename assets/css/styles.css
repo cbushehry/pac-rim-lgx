@@ -395,7 +395,7 @@ header nav ul li a:hover {
 
 /* FOOTER STYLES START */
 footer {
-  background: var(--secondary-color);
+  background: var(--secondary-color); /* Use the updated secondary color */
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
@@ -412,6 +412,7 @@ footer h2 {
 footer div {
   line-height: 1.5;
   text-align: right;
+  color: black; /* Change text color to black */
 }
 
 footer a {
