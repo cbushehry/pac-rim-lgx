@@ -75,11 +75,15 @@ header nav ul li a:hover {
 /* HERO SECTION STYLES START */
 .hero {
   position: relative;
-  background: url("../images/GGB-hero.jpg") no-repeat center center/cover;
+  background: url("../images/hero-image-1.jpg") no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 100px 0; /* Adjust this value as needed to move the content down */
   min-height: 500px;
+}
+
+.hero.services-hero {
+  background: url("../images/hero-image-2.jpg") no-repeat center center/cover;
 }
 
 .hero-overlay {
