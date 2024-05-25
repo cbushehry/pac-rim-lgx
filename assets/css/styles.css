@@ -437,46 +437,59 @@ header nav ul li a:hover {
 }
 /* OUR PARTNERS SECTION STYLES END */
 
-/* GALLERY TEXT SECTION STYLES START */
-.gallery-text {
-  background-color: #f4f4f4;
-  color: #333;
+/* GALLERY SECTION STYLES START */
+#gallery {
   padding: 60px 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
 }
 
-.gallery-text .container {
+#gallery .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.gallery-text .about-us-content {
+#gallery h2 {
+  font-size: 36px;
+  color: var(--tertiary-color);
+  margin-bottom: 40px;
+}
+
+.gallery-grid {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.gallery-text .about-us-text {
-  flex: 1;
-  margin: 20px;
-  padding: 20px;
+.gallery-item {
+  flex: 1 1 30%;
+  margin: 15px;
   background-color: white;
   border: 1px solid #ddd;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s;
 }
 
-.gallery-text .about-us-text h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: var(--tertiary-color);
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
 }
 
-.gallery-text .about-us-text p {
+.gallery-item:hover {
+  transform: translateY(-10px);
+}
+
+.gallery-item p {
   font-size: 16px;
-  line-height: 1.5;
   color: var(--tertiary-color);
 }
-/* GALLERY TEXT SECTION STYLES END */
+/* GALLERY SECTION STYLES END */
 
 /* FOOTER STYLES START */
 footer {
