@@ -86,6 +86,10 @@ header nav ul li a:hover {
   background: url("../images/hero-image-2.jpg") no-repeat center center/cover;
 }
 
+.hero.gallery-hero {
+  background: url("../images/hero-image-3.jpg") no-repeat center center/cover;
+}
+
 .hero-overlay {
   position: absolute;
   top: 0;
