@@ -402,29 +402,40 @@ header nav ul li a:hover {
 /* OUR PARTNERS SECTION STYLES END */
 
 /* GALLERY TEXT SECTION STYLES START */
-.text-section {
+.gallery-text {
   background-color: #f4f4f4;
   color: #333;
   padding: 60px 20px;
-  text-align: center;
 }
 
-.text-section .container {
+.gallery-text .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.text-content {
-  margin-bottom: 40px;
+.gallery-text .about-us-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.text-content h2 {
+.gallery-text .about-us-text {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.gallery-text .about-us-text h2 {
   font-size: 24px;
   margin-bottom: 20px;
   color: var(--tertiary-color);
 }
 
-.text-content p {
+.gallery-text .about-us-text p {
   font-size: 16px;
   line-height: 1.5;
   color: var(--tertiary-color);
