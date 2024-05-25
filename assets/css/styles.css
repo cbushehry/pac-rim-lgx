@@ -342,29 +342,65 @@ header nav ul li a:hover {
 }
 /* WHY CHOOSE US SECTION STYLES END */
 
-/* OUR SERVICES SECTION STYLES START */
-.service-item {
-  padding: 50px;
+/* SERVICES SECTION STYLES START */
+#our-services {
+  text-align: center;
+  padding: 60px 20px;
   background-color: white;
   color: black;
 }
 
-#our-services h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
+#our-services .container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-#our-services ul {
-  list-style: none;
-  margin-bottom: 20px;
+#our-services .section-title {
+  font-size: 36px;
+  color: var(--tertiary-color);
+  margin-bottom: 40px;
 }
 
-#our-services li {
-  font-size: 16px;
-  line-height: 1.5;
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  color: var(--tertiary-color);
   margin-bottom: 10px;
 }
-/* OUR SERVICES SECTION STYLES END */
+
+.service-card p {
+  font-size: 16px;
+  color: var(--tertiary-color);
+}
+/* SERVICES SECTION STYLES END */
 
 /* OUR PARTNERS SECTION STYLES START */
 #our-partners {
