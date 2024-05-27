@@ -19,24 +19,34 @@ body {
 /* HEADER / NAV BAR STYLES START */
 header {
   padding: 20px 35px;
-  background-color: var(--secondary-color); /* Update to use the blue color */
+  background-color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
+  align-items: center; /* Ensure alignment for vertical centering */
   flex-wrap: wrap;
   position: sticky;
-  position: -webkit-sticky;
   top: 0;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
   z-index: 9999;
 }
 
-header h1 {
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo-container h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
   color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.est-2023 {
+  font-size: 14px; /* Smaller text size */
+  color: var(--primary-color);
+  margin-top: 5px; /* Small space between the main text and EST 2023 */
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
