@@ -197,6 +197,29 @@ header nav ul li a:hover {
 }
 /* SERVICES OVERVIEW SECTION STYLES END */
 
+/* COMMON SECTION STYLES START */
+.section {
+  padding: 60px 20px;
+  background-color: var(--background-color);
+  color: var(--tertiary-color);
+}
+
+.section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 36px;
+  color: var(--tertiary-color);
+  margin-bottom: 40px;
+}
+
+.section-title .highlight {
+  color: var(--secondary-color);
+}
+/* COMMON SECTION STYLES END */
+
 /* ABOUT US SECTION STYLES START */
 .about-us-section {
   background-color: #f4f4f4;
@@ -236,7 +259,47 @@ header nav ul li a:hover {
   line-height: 1.5;
   color: var(--tertiary-color);
 }
-/* ABOUT US SECTION STYLES END */
+
+/* SERVICES PAGE TEXT BOXES STYLES */
+.text-boxes {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 60px 20px;
+}
+
+.text-boxes .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-boxes .about-us-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.text-boxes .about-us-text {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.text-boxes .about-us-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--tertiary-color);
+}
+
+.text-boxes .about-us-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--tertiary-color);
+}
+/* SERVICES PAGE TEXT BOXES STYLES END */
 
 /* MANAGEMENT TEAM SECTION STYLES START */
 .management-team-section {
