@@ -129,12 +129,58 @@ header nav ul li a:hover {
 }
 /* HERO SECTION STYLES END */
 
-/* SERVICES OVERVIEW SECTION STYLES START */
+/* SERVICES PAGE STYLES START */
+.services-page {
+  background-color: #f4f4f4; /* Light grey background */
+  color: var(--tertiary-color);
+  padding: 60px 20px; /* Consistent padding */
+}
+
+.services-page .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* New Text Boxes Section */
+.text-boxes {
+  padding: 60px 20px;
+  background-color: inherit; /* Use the same background color as the parent */
+}
+
+.text-boxes .about-us-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.text-boxes .about-us-text {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.text-boxes .about-us-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--tertiary-color);
+}
+
+.text-boxes .about-us-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--tertiary-color);
+}
+
+/* Services Overview Section */
 #services-overview {
+  background-color: inherit; /* Use the same background color as the parent */
   text-align: center;
   padding: 60px 20px;
-  background-color: white;
-  color: black;
+  color: var(--tertiary-color);
 }
 
 #services-overview .container {
@@ -195,7 +241,7 @@ header nav ul li a:hover {
   font-size: 14px;
   color: var(--tertiary-color);
 }
-/* SERVICES OVERVIEW SECTION STYLES END */
+
 
 /* COMMON SECTION STYLES START */
 .section {
@@ -617,7 +663,7 @@ section {
 }
 /* SECTION TITLE STYLES END */
 
-/* REACH OUT STYLES START */
+/* REACH OUT SECTION START */
 .contact {
   background: rgb(179, 179, 179);
   padding: 40px 20px; /* Adjusted padding to reduce space */
