@@ -177,7 +177,7 @@ header nav ul li a:hover {
 
 /* Services Overview Section */
 #services-overview {
-  background-color: inherit; /* Use the same background color as the parent */
+  background-color: #f4f4f4; /* Use the same background color as the parent */
   text-align: center;
   padding: 60px 20px;
   color: var(--tertiary-color);
@@ -499,7 +499,7 @@ header nav ul li a:hover {
 #our-services {
   text-align: center;
   padding: 60px 20px;
-  background-color: white;
+  background-color: #f4f4f4;
   color: black;
 }
 
@@ -593,7 +593,7 @@ header nav ul li a:hover {
 /* GALLERY SECTION STYLES START */
 #gallery {
   padding: 60px 20px;
-  background-color: white;
+  background-color: #f4f4f4; /* Change to light grey */
   color: black;
   text-align: center;
 }
