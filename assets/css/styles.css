@@ -266,18 +266,18 @@ header nav ul li a:hover {
   color: var(--secondary-color);
 }
 
-.text-boxes, .about-us-section, .management-team-section, .why-choose-us-section, .services-page, .gallery-text, .contact {
+.text-boxes, .about-us-section, .management-team-section, .services-page, .gallery-text, .contact {
   background-color: #f4f4f4;
   padding: 60px 20px;
 }
 
-.text-boxes .about-us-content, .about-us-section .about-us-content, .management-team-section .team-members, .why-choose-us-section .features-list {
+.text-boxes .about-us-content, .about-us-section .about-us-content, .management-team-section .team-members {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.text-boxes .about-us-text, .about-us-section .about-us-text, .management-team-section .team-member, .why-choose-us-section .feature-item, .service-card, .gallery-item {
+.text-boxes .about-us-text, .about-us-section .about-us-text, .management-team-section .team-member, .service-card, .gallery-item {
   flex: 1;
   margin: 20px;
   padding: 20px;
@@ -288,13 +288,13 @@ header nav ul li a:hover {
   transition: transform 0.3s;
 }
 
-.text-boxes .about-us-text h2, .about-us-section .about-us-text h2, .management-team-section .team-member h3, .why-choose-us-section .feature-item p, .service-card h3, .gallery-item p {
+.text-boxes .about-us-text h2, .about-us-section .about-us-text h2, .management-team-section .team-member h3, .service-card h3, .gallery-item p {
   font-size: 24px;
   margin-bottom: 20px;
   color: var(--tertiary-color);
 }
 
-.text-boxes .about-us-text p, .about-us-section .about-us-text p, .management-team-section .team-member p, .why-choose-us-section .feature-item p, .service-card p, .gallery-item p {
+.text-boxes .about-us-text p, .about-us-section .about-us-text p, .management-team-section .team-member p, .service-card p, .gallery-item p {
   font-size: 16px;
   line-height: 1.5;
   color: var(--tertiary-color);
@@ -494,6 +494,7 @@ header nav ul li a:hover {
   line-height: 1.5;
   color: var(--tertiary-color);
 }
+
 /* WHY CHOOSE US SECTION STYLES END */
 
 /* SERVICES SECTION STYLES START */
