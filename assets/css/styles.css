@@ -22,7 +22,7 @@ header {
   background-color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Ensure alignment for vertical centering */
+  align-items: center;
   flex-wrap: wrap;
   position: sticky;
   top: 0;
@@ -44,10 +44,11 @@ header {
 }
 
 .est-2023 {
-  font-size: 14px; /* Smaller text size */
+  font-size: 14px;
   color: var(--primary-color);
-  margin-top: 5px; /* Small space between the main text and EST 2023 */
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  align-self: center; /* Center the EST 2023 text */
+  margin-top: 5px; /* Small space between the main text and EST 2023 */
 }
 
 header a {
