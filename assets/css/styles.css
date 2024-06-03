@@ -671,6 +671,12 @@ footer div {
 footer a {
   color: var(--primary-color);
 }
+
+/* New rule to make the "Made by Cameron Bushehry" text smaller */
+.footer-made-by {
+  font-size: 14px; /* Adjust the size as needed */
+  color: var(--primary-color);
+}
 /* END FOOTER STYLES */
 
 /* STYLE ALL SECTION TAGS */
