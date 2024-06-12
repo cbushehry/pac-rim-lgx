@@ -837,6 +837,58 @@ section {
 /* FORM ROW AND GROUP STYLES END */
 /* REACH OUT STYLES END */
 
+/* GET QUOTE SECTION STYLES START */
+.get-quote-section {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.get-quote-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.get-quote-section .section-title {
+  font-size: 36px;
+  color: var(--tertiary-color);
+  margin-bottom: 40px;
+}
+
+.quote-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-form label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.quote-form input,
+.quote-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.quote-form button {
+  padding: 15px;
+  border: none;
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quote-form button:hover {
+  background-color: var(--primary-color);
+}
+/* GET QUOTE SECTION STYLES END */
+
 /* UTILITIES */
 .text-left {
   text-align: left;
