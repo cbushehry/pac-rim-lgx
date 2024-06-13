@@ -80,6 +80,17 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
+
+.quote-button {
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  border-radius: 15px;
+}
+
+.quote-button:hover {
+  background: var(--primary-color); /* Keeps the background white on hover */
+  color: var(--secondary-color);
+}
 /* HEADER / NAVBAR STYLES END */
 
 /* HERO SECTION STYLES START */
