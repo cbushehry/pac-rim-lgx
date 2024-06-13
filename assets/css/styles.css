@@ -85,6 +85,7 @@ header nav ul li a:hover {
   background: var(--primary-color);
   color: var(--tertiary-color);
   border-radius: 15px;
+  text-shadow: none;
 }
 
 .quote-button:hover {
