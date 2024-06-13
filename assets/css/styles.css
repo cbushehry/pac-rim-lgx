@@ -31,8 +31,8 @@ header {
 
 .logo-container {
   display: flex;
-  flex-direction: row; /* Change to row to place items side by side */
-  align-items: center; /* Align items to the center */
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo-container h1 {
@@ -47,7 +47,7 @@ header {
   font-size: 14px;
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-left: 25px; /* Small space between the main text and EST 2023 */
+  margin-left: 25px;
 }
 
 header a {
