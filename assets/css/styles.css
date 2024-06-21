@@ -864,11 +864,13 @@ section {
   font-size: 36px;
   color: var(--tertiary-color);
   margin-bottom: 40px;
+  width: 50%;
 }
 
 .quote-form {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .quote-form label {
