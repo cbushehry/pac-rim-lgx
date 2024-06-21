@@ -121,6 +121,15 @@ header nav ul li a:hover {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.hero-logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 150px;
+  height: auto;
+  z-index: 2;
+}
+
 .hero-content {
   position: relative;
   z-index: 1;
@@ -140,6 +149,7 @@ header nav ul li a:hover {
   margin-bottom: 20px;
 }
 /* HERO SECTION STYLES END */
+
 
 /* SERVICES PAGE STYLES START */
 .services-page {
