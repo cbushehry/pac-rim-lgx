@@ -864,13 +864,25 @@ section {
   font-size: 36px;
   color: var(--tertiary-color);
   margin-bottom: 40px;
-  width: 50%;
+  text-align: left;
 }
 
 .quote-form {
   display: flex;
   flex-direction: column;
   width: 50%;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
 }
 
 .quote-form label {
@@ -885,6 +897,11 @@ section {
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 16px;
+}
+
+.quote-form input::placeholder,
+.quote-form textarea::placeholder {
+  color: #999;
 }
 
 .quote-form button {

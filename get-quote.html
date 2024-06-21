@@ -34,20 +34,48 @@
     
     <section id="get-quote" class="get-quote-section">
         <div class="container">
-            <h2 class="section-title">Get a Quote</h2>
+            <h2 class="section-title">Get a Freight Quote</h2>
             <form class="quote-form">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="phone">Your Phone Number</label>
-                <input type="tel" id="phone" name="phone" required>
-                
-                <label for="details">Shipping Details</label>
-                <textarea id="details" name="details" rows="5" required></textarea>
-                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="company-name">Company Name</label>
+                        <input type="text" id="company-name" name="company-name" placeholder="Company Name" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="origin-city">Origin City</label>
+                        <input type="text" id="origin-city" name="origin-city" placeholder="Origin City" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="destination-city">Destination City</label>
+                        <input type="text" id="destination-city" name="destination-city" placeholder="Destination City" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="details">Shipment Details</label>
+                    <textarea id="details" name="details" rows="5" placeholder="Shipment Details" required></textarea>
+                </div>
                 <button type="submit">Submit</button>
             </form>
         </div>
