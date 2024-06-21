@@ -863,15 +863,23 @@ section {
 .get-quote-section .section-title {
   font-size: 36px;
   color: var(--tertiary-color);
-  margin-bottom: 40px;
-  text-align: left;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote-form-container {
+  width: 50%;
 }
 
 .quote-form {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .form-row {
@@ -882,6 +890,10 @@ section {
 .form-group {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.form-group.half-width {
   width: 48%;
 }
 
