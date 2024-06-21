@@ -89,7 +89,7 @@ header nav ul li a:hover {
 }
 
 .quote-button:hover {
-  background: var(--primary-color); /* Keeps the background white on hover */
+  background: var(--primary-color);
   color: var(--secondary-color);
 }
 /* HEADER / NAVBAR STYLES END */
@@ -100,7 +100,7 @@ header nav ul li a:hover {
   background: url("../images/hero-image-1.jpg") no-repeat center center/cover;
   color: white;
   text-align: center;
-  padding: 100px 0; /* Adjust this value as needed to move the content down */
+  padding: 100px 0;
   min-height: 500px;
 }
 
@@ -118,7 +118,7 @@ header nav ul li a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Add overlay */
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
@@ -126,8 +126,8 @@ header nav ul li a:hover {
   z-index: 1;
   max-width: 800px;
   margin: 0 auto;
-  top: 50%; /* This will center the content vertically */
-  transform: translateY(-50%); /* This will adjust the position to be centered */
+  top: 50%; 
+  transform: translateY(-50%);
 }
 
 .hero h2 {
@@ -143,9 +143,9 @@ header nav ul li a:hover {
 
 /* SERVICES PAGE STYLES START */
 .services-page {
-  background-color: #f4f4f4; /* Light grey background */
+  background-color: #f4f4f4;
   color: var(--tertiary-color);
-  padding: 60px 20px; /* Consistent padding */
+  padding: 60px 20px;
 }
 
 .services-page .container {
@@ -156,7 +156,7 @@ header nav ul li a:hover {
 /* New Text Boxes Section */
 .text-boxes {
   padding: 60px 20px;
-  background-color: inherit; /* Use the same background color as the parent */
+  background-color: inherit;
 }
 
 .text-boxes .about-us-content {
@@ -189,7 +189,7 @@ header nav ul li a:hover {
 
 /* Services Overview Section */
 #services-overview {
-  background-color: #f4f4f4; /* Use the same background color as the parent */
+  background-color: #f4f4f4;
   text-align: center;
   padding: 60px 20px;
   color: var(--tertiary-color);
@@ -581,24 +581,24 @@ header nav ul li a:hover {
 .partner-row {
   display: flex;
   justify-content: center;
-  gap: 10px; /* Adjust the gap between logos as needed */
-  margin-bottom: 20px; /* Space between rows */
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .partner-row:first-child {
-  justify-content: center; /* Specifically center the first row for single image */
-  max-width: 500px; /* Prevents the images from being too large */
+  justify-content: center;
+  max-width: 500px;
 }
 
 .partner-item {
-  flex: 1; /* Each partner item takes equal space in the row */
-  text-align: center; /* Centers the images within their flex item */
-  padding: 0 10px; /* Adds spacing between images */
+  flex: 1;
+  text-align: center;
+  padding: 0 10px;
 }
 
 .partner-item img {
-  width: 80%; /* Adjust based on your preference */
-  max-width: 500px; /* Prevents the images from being too large */
+  width: 80%;
+  max-width: 500px;
   height: auto;
 }
 /* OUR PARTNERS SECTION STYLES END */
@@ -606,7 +606,7 @@ header nav ul li a:hover {
 /* GALLERY SECTION STYLES START */
 #gallery {
   padding: 60px 20px;
-  background-color: #f4f4f4; /* Change to light grey */
+  background-color: #f4f4f4;
   color: black;
   text-align: center;
 }
@@ -659,7 +659,7 @@ header nav ul li a:hover {
 
 /* FOOTER STYLES START */
 footer {
-  background: var(--secondary-color); /* Use the updated secondary color */
+  background: var(--secondary-color);
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
@@ -676,16 +676,16 @@ footer h2 {
 footer div {
   line-height: 1.5;
   text-align: right;
-  color: black; /* Change text color to black */
+  color: black;
 }
 
 footer a {
   color: var(--primary-color);
 }
 
-/* New rule to make the "Made by Cameron Bushehry" text smaller */
+/* rule to make the "Made by Cameron Bushehry" text smaller */
 .footer-made-by {
-  font-size: 14px; /* Adjust the size as needed */
+  font-size: 14px;
   color: var(--primary-color);
 }
 /* END FOOTER STYLES */
@@ -697,14 +697,14 @@ section {
 
 /* SECTION TITLE STYLES START */
 .section-title {
-  font-size: 48px; /* Matches other sections' title size */
-  color: var(--secondary-color); /* Ensure color consistency */
-  padding-bottom: 20px; /* Spacing for aesthetic */
-  text-align: center; /* Centers the text */
-  display: inline-block; /* Allows the underline to fit the text width */
-  border-bottom: 3px solid; /* Creates an underline */
-  width: 1000px; /* Adjust width to content size */
-  margin: 0 auto 35px auto; /* Centering the title horizontally */
+  font-size: 48px;
+  color: var(--secondary-color);
+  padding-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 3px solid;
+  width: 1000px;
+  margin: 0 auto 35px auto;
 }
 
 .primary-border {
@@ -719,48 +719,47 @@ section {
 /* REACH OUT SECTION START */
 .contact {
   background: rgb(179, 179, 179);
-  padding: 40px 20px; /* Adjusted padding to reduce space */
+  padding: 40px 20px;
 }
 
 .contact .container {
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0 auto; /* Center the container */
-  padding: 0 20px; /* Add padding to the container */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .contact h2 {
   color: var(--primary-color);
-  margin-bottom: 20px; /* Reduced bottom margin */
+  margin-bottom: 20px;
 }
 
 .contact-info {
   display: flex;
-  justify-content: space-between; /* This can help maintain spacing between the elements */
-  flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-/* Targeting each child specifically by their class or element type if they don't have a specific class */
 .contact-info .contact-form {
-  order: 1; /* Contact form goes first */
-  flex: 1 1 30%; /* Adjust sizing as necessary */
-  text-align: center; /* Center the form elements */
+  order: 1;
+  flex: 1 1 30%;
+  text-align: center; 
 }
 
 .contact-info iframe {
-  order: 2; /* Map goes second */
-  flex: 1 1 40%; /* Giving more space to the map */
-  height: 350px; /* Adjusted height to reduce space */
-  width: 100%; /* Ensures it takes the full allocated space */
+  order: 2;
+  flex: 1 1 40%;
+  height: 350px;
+  width: 100%;
 }
 
 .contact-info > div:not(.contact-form) {
-  order: 3; /* Address goes last */
-  flex: 1 1 20%; /* Adjust sizing as necessary */
+  order: 3;
+  flex: 1 1 20%;
 }
 
 .contact-info > * {
   flex: 1;
-  margin: 10px; /* Reduced margin to decrease space */
+  margin: 10px;
 }
 
 .contact-info div {
@@ -769,12 +768,12 @@ section {
 
 .contact-info h3 {
   color: var(--primary-color);
-  font-size: 28px; /* Adjusted font size to reduce space */
-  margin-bottom: 15px; /* Reduced bottom margin */
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 
 .contact-info p, .contact-info address {
-  margin: 10px 0; /* Reduced margins to decrease space */
+  margin: 10px 0;
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
@@ -787,7 +786,7 @@ section {
   font-size: 16px;
   color: var(--secondary-color);
   width: 100%;
-  margin-bottom: 10px; /* Reduced bottom margin */
+  margin-bottom: 10px;
   margin-top: 5px;
   border-radius: 10px;
   background-color: rgba(255,255,255, 0.75);
@@ -799,7 +798,7 @@ section {
 }
 
 .contact-form textarea {
-  height: auto; /* Let the height be determined by the rows attribute */
+  height: auto;
 }
 
 .contact-form button {
@@ -808,7 +807,7 @@ section {
   background: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
-  padding: 10px 0; /* Reduced padding */
+  padding: 10px 0;
   font-size: 16px;
   border-radius: 10px;
   cursor: pointer;
@@ -898,7 +897,7 @@ section {
 }
 
 .form-group.half-width:not(:last-child) {
-  margin-right: 4%; /* Add small space between half-width inputs */
+  margin-right: 4%;
 }
 
 .quote-form label {
@@ -934,7 +933,6 @@ section {
   background-color: var(--primary-color);
 }
 /* GET QUOTE SECTION STYLES END */
-
 
 /* UTILITIES */
 .text-left {
